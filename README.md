@@ -1,5 +1,5 @@
 # LinuxParrotOS64Debain
-This is a repository of projects done using Linux. We will be using Oracle Virtual Box and the **Linux Parrot 64 bit OS Debain ISO**. <br><br>
+This is a repository of projects done using Linux. We will be using Oracle Virtual Box and the **Linux Parrot 64 bit OS Debain**. <br><br>
 [ Parrot 64 bit Debain ISO ]: (https://www.parrotsec.org/) <br> [ Oracle Virtual Box ]: (https://www.virtualbox.org/)
 <br><br>
 If you need help with any of the configuration steps dont be afraid to email: <a href="mailto:bmxfiend1@gmail.com">bmxfiend1@gmail.com</a>
