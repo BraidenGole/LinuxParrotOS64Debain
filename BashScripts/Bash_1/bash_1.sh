@@ -30,7 +30,7 @@
 >
 >              ls --help        // Linux style dir listing command.
 >
-> HEADER-COMMENT
+>
 HEADER-COMMENT
 
 printf "\n> Braiden's Bash Script Exercise:\n"
