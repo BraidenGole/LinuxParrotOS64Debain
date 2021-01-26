@@ -4,7 +4,7 @@ This is a repository of projects done using Linux. We will be using Oracle Virtu
 <br><br>
 If you need help with any of the configuration steps dont be afraid to email: <a href="mailto:bmxfiend1@gmail.com">bmxfiend1@gmail.com</a>
 <br><br>
-[Things to keep track of will be needed frequently]
+Things to keep track of will be needed frequently
   1. Root password.
   2. Account name.
   3. Account password.
