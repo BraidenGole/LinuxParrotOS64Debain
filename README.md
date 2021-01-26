@@ -4,6 +4,11 @@ This is a repository of projects done using Linux. We will be using Oracle Virtu
 <br><br>
 If you need help with any of the configuration steps dont be afraid to email: <a href="mailto:bmxfiend1@gmail.com">bmxfiend1@gmail.com</a>
 <br><br>
+[Things to keep track of will be needed frequently]
+  1. Root password.
+  2. Account name.
+  3. Account password.
+<br><br>
 If you forget your **password** you can simply restart the Virtual machine and boot in "Recovery mode" once the command-prompt has loaded you will be required to enter in your *Root Password*. The command to change the password for the associated account
 is `sudo passwd username` The *Username* is likely to be your name in lowercase.
 <br><br>
