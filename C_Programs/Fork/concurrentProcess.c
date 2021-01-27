@@ -56,6 +56,7 @@ int main(void)
     system(ACTIVEPROCESSES);
     
     // If we return 0 then the child process has been succesfully created.
+    
     // This will create 16 processes but that does not mean that all of them will be
     // created each time the program is ran the amount of successfully created children
     // can vary in range depending on conditions of the operating system.
