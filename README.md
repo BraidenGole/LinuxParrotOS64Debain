@@ -9,7 +9,7 @@ Data to keep track of:
   2. Account name.
   3. Account password.
 <br><br>
-If you forget your **password** you can simply restart the Virtual machine and boot in "Recovery mode" once the command-prompt has loaded you will be required to enter in your *Root Password*. The command to change the password for the associated account
+If you forget your **password** you can simply restart the Virtual machine and boot in "Recovery mode" once the terminal has loaded you will be required to enter in your *Root Password*. The command to change the password for the associated account
 is `sudo passwd username` The *Username* is likely to be your name in lowercase.
 <br><br>
 **Aside from all of this the repository will contain programs that relate to developing on the Linux platform.**
