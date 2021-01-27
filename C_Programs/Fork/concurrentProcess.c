@@ -36,8 +36,7 @@
 
 #define ACTIVEPROCESSES "ps -aux | more"
 #define PROCESSCREATED "\tProcess created !\n"
-#define REJECTEDPROCESS "\n\t> The process has been rejected !\n"
-#define PROMPT "\n\tWould you like to create more processes y/n: "
+#define REJECTEDPROCESS "\n\tThe process has been rejected !\n"
 #define ZERO 0
 #define K100BYTES 100
 
