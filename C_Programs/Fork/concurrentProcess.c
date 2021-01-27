@@ -88,7 +88,7 @@ int main(void)
 /**     -- Function header comment
  *  FUNCTION        :   cloneProcess
  *  DESCRIPTION     :   This function contains what should happen when fork
- *                      gets called.
+ *                      gets called and fork() returns 0.
  *  PARAMETERS      :   None
  *  RETURNS         :   None
  */
