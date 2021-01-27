@@ -15,7 +15,7 @@
 >       https://www.tutorialspoint.com/unix/unix-using-arrays.htm
 >
 >
-> (Mobile Android Application - Basic commands)
+> (Mobile Android Application - Siaco - Basic commands)
 > [SOURCE]: https://play.google.com/store/apps/details?id=linux.teach&hl=en&gl=US
 HEADER-COMMENT
 
