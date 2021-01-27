@@ -13,6 +13,8 @@
 >
 >   When that command is run it will log the results into a text file and then embed
 >   the text file from the output of the curl commond to a HTML document.
+>   
+>   Make sure you are on the right PORT !
 >  
 >   (Live server extension)
 >   [SOURCE]: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
