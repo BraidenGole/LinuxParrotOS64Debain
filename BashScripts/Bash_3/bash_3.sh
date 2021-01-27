@@ -9,7 +9,7 @@
 >                       Just building random functionality getting
 >                       more familiar with the commands and operations.
 >
-> (Unix / Linux style commands - Special Variables & Shell arrays)
+> (Unix / Linux style commands - Tutorialspoint - Special Variables & Shell arrays)
 > [SOURCE / REFERENCED]: 
 >       https://www.tutorialspoint.com/unix/unix-special-variables.htm
 >       https://www.tutorialspoint.com/unix/unix-using-arrays.htm
