@@ -23,7 +23,7 @@
  *
  * Using GCC to compile my program: gcc -o test cloneProcess.c -Wall
  *
- * [INFORMATION]: fork() will created separate processes at the rate of 2^(calls to fork())
+ * [INFORMATION]: fork() will create separate processes at the rate of 2^(calls to fork())
  *                so an example of this would be if you call fork() [4] times then we will
  *                have 2^4 = 16 Child processes created.
  * @version 0.1
