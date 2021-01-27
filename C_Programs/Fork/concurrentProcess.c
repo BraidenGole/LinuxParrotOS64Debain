@@ -8,7 +8,7 @@
  *                     which will run separately this kind of functionality should be
  *                     used if you need to handle something in the background like maybe
  *                     a URL request, handling database operations, or a lookup for example
- *                     anything that takes time but we can continue with something else.
+ *                     anything that takes time but we can continue with another operation.
  *
  *        [NOTE]: (Developing on Linux) [Parrot 64 Bit OS / Debian]
  *        --------------------------------------------------------------------------
