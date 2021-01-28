@@ -4,4 +4,4 @@
 <code>"test2" = "Doubly Linked List"</code>
 <br><br>
 <h5>If you are not comfortable with downloading any live exe(s) then we can always go on over to the "C" repository and get the "Circular Doubly Linked List" improved --version
- followed by the "Doubly Linked List" from the "C" repository !</h5>
+ followed by the "Doubly Linked List" from the "C" repository create the "exe(s)" manually from code that you are viewing to ensure a safe source.</h5>
