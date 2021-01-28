@@ -19,7 +19,7 @@
  *
  * [NOTE:] The linux console renders differently when it comes to displaying text
  *         you may have to look at the selection menu displayed above from last selection 
- *         in order to add a new record to either the "process one" or "process two".
+ *         in order to add a new record to either the selection 'A' or 'B' !
  * @version 0.1
  * @date 2021-01-27
  * @copyright Copyright (c) Braiden Gole 2021
