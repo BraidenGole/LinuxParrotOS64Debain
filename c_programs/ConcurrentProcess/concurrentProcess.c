@@ -46,9 +46,6 @@
 // Function prototypes.
 void cloneProcess();
 
-// Global variable.
-int processStarted;
-
 int main(void)
 {   
     // Check the status of active processes.
@@ -61,7 +58,8 @@ int main(void)
     putchar('\n');
     const int CALLSTOFORK = 4;
     int numberOfCalls = 0;
-
+    
+    int processStarted = 0;
     while (numberOfCalls < CALLSTOFORK) {
         processStarted = fork();
         if (processStarted == ZERO)
