@@ -1,0 +1,3 @@
+A. When creating console applications on the linux platform I should add a few new-line characters to the end of a menu for example
+so that the user can see that a new menu appeard in the console. The benifits of this is that the user can read the current menu displayed and
+the user can see what he/she is typing in.
