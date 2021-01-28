@@ -1,3 +1,26 @@
-A. When creating console applications on the linux platform I should add a few new-line characters to the end of a menu for example
-so that the user can see that a new menu appeard in the console. The benifits of this is that the user can read the current menu displayed and
-the user can see what he/she is typing in.
+A. When creating console applications on the Linux platform I should add a few new-line characters after a menu display.
+The reason for this is so that the user can view the current menu displayed as well as the user can also view what they are
+typing in for that current selection.
+
+  -- Circular Doubly Linked List --
+    1. Add.
+    2. Update.
+    3. Delete.
+    4. Show.
+    5. Quit.
+    
+    Enter in a selection:
+    
+    >>> The second or third time the menu displays we can only see up until option 3
+        on line 20 we also can not see what we are typing in.
+    
+    -- Circular Doubly Linked List --
+    1. Add.
+    2. Update.
+    3. Delete.
+    4. Show.
+    5. Quit.
+    
+    Enter in a selection:
+    
+    (Solution) Add new-lines !
