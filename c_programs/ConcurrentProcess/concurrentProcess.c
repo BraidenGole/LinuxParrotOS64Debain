@@ -42,7 +42,6 @@
 #define K100BYTES 100
 
 #define _STRING_FORMAT "%s"
-#define _PID_FORMAT "\n\tPID: %i\n"
 
 // Function prototypes.
 void cloneProcess();
@@ -53,7 +52,7 @@ int processStarted;
 int main(void)
 {   
     // Check the status of active processes.
-    //system(ACTIVEPROCESSES);
+    system(ACTIVEPROCESSES);
     
     // If we return 0 then the child process has been succesfully created.
     // This will create 16 processes but that does not mean that all of them will be
