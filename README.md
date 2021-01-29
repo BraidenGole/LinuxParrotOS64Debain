@@ -2,7 +2,7 @@
 This is a repository of projects done using Linux. We will be using Oracle Virtual Box and the **Linux Parrot 64 bit OS Debian**. <br><br>
 [ Parrot 64 bit Debian ISO ]: (https://www.parrotsec.org/) <br> [ Oracle Virtual Box ]: (https://www.virtualbox.org/)
 <br><br>
-**Make sure that we check to see that we have a valid ISO file after downloading the file to make sure that the file was not tampered with using the command (Windows) `certutil -hashfile Parrot-home-4.10_amd64.iso SHA256`**
+**Make sure that you check to see if we have a valid ISO file after downloading to ensure that the file was not tampered with using the command (Windows) `certutil -hashfile Parrot-home-4.10_amd64.iso SHA256`**
 <br><br>
 If you need help with any of the configuration steps dont be afraid to email: <a href="mailto:bmxfiend1@gmail.com">bmxfiend1@gmail.com</a>
 <br><br>
