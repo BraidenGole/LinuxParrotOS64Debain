@@ -36,7 +36,6 @@
 
 #define ACTIVEPROCESSES "ps -aux | more"
 #define PROCESSCREATED "\n\tProcess created !\n"
-#define REJECTEDPROCESS "\n\t> The process has been rejected !\n"
 #define PROMPT "\n\tWould you like to create more processes y/n: "
 #define ZERO 0
 #define K100BYTES 100
@@ -66,11 +65,6 @@ int main(void)
         {
             fprintf(stdout, _STRING_FORMAT, PROCESSCREATED);
             cloneProcess();
-        }
-        else
-        {   
-            // Creation of a child process was unfortunately rejected.
-            fprintf(stderr, _STRING_FORMAT, REJECTEDPROCESS);
         }
         ++numberOfCalls;
     }
