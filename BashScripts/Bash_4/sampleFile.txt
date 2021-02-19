@@ -1,0 +1,70 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+
+#define KSIZEOFDESCRIPTOR 2
+#define SOMETHINGWENTWRONG "\nSomething went wrong !\n"
+#define NOCHARACTERS "\nNo characters !\n"
+#define PROMPT "Enter in a number: "
+
+#define ZERO 0
+#define ERROR -1
+#define ONE 1
+
+// Permissions.
+#define READ 0
+#define WRITE 1
+
+int main(void)
+{   
+    int pipeDescriptor[KSIZEOFDESCRIPTOR] = { ZERO };
+
+    int descriptorWasCreated = pipe(pipeDescriptor);
+    if (descriptorWasCreated == ERROR)
+    {
+        fprintf(stderr, "\nDescriptor was not created !\n");
+        return ERROR;
+    }
+    else
+    {   
+        int number = 0;
+        int processId = fork();
+        if (processId == ZERO)
+        {
+            printf(PROMPT);
+            if ((fscanf(stdin, "%i", &number)) == ZERO)
+            {
+                fprintf(stderr, NOCHARACTERS);
+                fflush(stdin);
+            }
+            else
+            {   
+                // Close read permission becuase it is not active at this moment.
+                close(pipeDescriptor[READ]);
+                if ((write(pipeDescriptor[WRITE], &number, sizeof(int))) == ERROR)
+                {
+                    fprintf(stderr, SOMETHINGWENTWRONG);
+                    return ERROR;
+                }
+
+                // We are finished with writting to the descriptor, close resources.
+                close(pipeDescriptor[WRITE]);
+            }
+        }
+        else
+        {   
+            // Read in the value that was written in [1] = [WRITE].
+            int readInValue = ZERO;
+            if ((read(pipeDescriptor[READ], &readInValue, sizeof(int))) == ERROR)
+            {
+                fprintf(stderr, SOMETHINGWENTWRONG);
+                return ERROR;
+            }
+
+            // Display the value read into the variable from the descriptor.
+            printf("\nValue entered: %i\n", readInValue);
+        }
+    }
+    return ZERO;
+}
